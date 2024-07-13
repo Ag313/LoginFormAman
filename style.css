@@ -28,6 +28,7 @@ body{
     margin: 20px;
 } */
 .head{
+    
     font-size: 20px;
     color: rgba(148, 4, 4, 0.568);
     position: absolute;
@@ -263,4 +264,96 @@ body{
 
 .main-container.active .toggle-right{
     transform: translateX(200%);
+}
+
+@media screen and (min-width: 150px) and (max-width: 425px){
+.head{
+    
+    font-size: 7px;
+    color: rgba(148, 4, 4, 0.568);
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 0px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.442);
+}
+
+.main-container form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    width: 150px;
+}
+
+.main-container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+}
+.sign-in{
+    height: 500px;
+}
+.social-icons a{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    width: 20px;
+    height: 20px;
+}
+.main-container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 5px 10px;
+    font-size: 8px;
+    font-weight: 600;
+
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    box-shadow: 0 5px 15px rgba(128, 128, 128, 0.601);
+}
+.main-container span{
+    font-size: 8px;
+    font-weight: 600;
+}
+.main-container h1{
+    font-size: 20px;
+}
+.foot{
+    position: relative;
+    bottom: -70px;
+    font-size: 5px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.39);
+    text-wrap: wrap;
+    padding: 4px;
+    border-radius:  10px 10px 0 0;
+    height: fit-content;
+}
+.foot2{
+    position: relative;
+    bottom: -57px;
+    font-size: 5px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.39);;
+    text-align: center;
+    padding: 5px;
+    border-radius:  10px 10px 0 0;
+}
+
 }
