@@ -269,10 +269,10 @@ body{
 @media screen and (min-width: 150px) and (max-width: 425px){
 .head{
     
-    font-size: 7px;
+    font-size: 15px;
     color: rgba(148, 4, 4, 0.568);
     position: absolute;
-    margin-top: -400px;
+    margin-top: -420px;
     margin-left: 0px;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.442);
 }
@@ -321,7 +321,7 @@ body{
     padding: 5px 10px;
     font-size: 8px;
     font-weight: 600;
-
+height: 30px;
     border-radius: 8px;
     width: 100%;
     outline: none;
@@ -335,25 +335,33 @@ body{
     font-size: 20px;
 }
 .foot{
-    position: relative;
-    bottom: -70px;
-    font-size: 5px;
-    width: 180px;
+    /* position: relative; */
+    bottom: -50px;
+    font-size: 3px;
+    width: 110px;
     background-color: rgba(0, 0, 0, 0.39);
     text-wrap: wrap;
     padding: 4px;
     border-radius:  10px 10px 0 0;
     height: fit-content;
+    left: 20px;
 }
 .foot2{
-    position: relative;
-    bottom: -57px;
+    /* position: relative; */
+    bottom: -44px;
     font-size: 5px;
-    width: 300px;
+    width: 160px;
     background-color: rgba(0, 0, 0, 0.39);;
-    text-align: center;
-    padding: 5px;
+    /* text-align: center; */
+    padding: 2px;
+    text-wrap: wrap;
+    overflow: hidden;
     border-radius:  10px 10px 0 0;
 }
-
+.main-container button{
+    font-size: 10px;
+    padding: 5px;
+    width: 100px;
+    /* margin-top: 50px; */
+}
 }
